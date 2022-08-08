@@ -732,6 +732,10 @@ h3 {
     color: #FFFFFF !important;
 }
 
+.black {
+    color: black !important;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -934,9 +938,7 @@ h4 {
     color: rgb(0, 0, 0);
 }
 
-.color-lien-footer {
-    color: white;
-}
+
 
 
 
