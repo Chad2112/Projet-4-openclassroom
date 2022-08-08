@@ -698,6 +698,10 @@ p {
     font-weight: 700;
 }
 
+.font-size {
+    font-size: 40px;
+}
+
 
 h2 {
     font-size: 22px;
