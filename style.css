@@ -4,6 +4,7 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: #FFF;
 }
 
 a,
@@ -555,6 +556,19 @@ a[data-lightbox]:hover::before {
     -webkit-transform: translateY(-50%);
 }
 
+.d-bloc {
+    color: rgba(255, 255, 255, .7);
+}
+
+.bgc-dark-slate-blue {
+    background-color: #364577;
+}
+
+#bloc-1-hero {
+    background-color: #000000;
+}
+
+
 a[data-lightbox]:hover img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
@@ -751,10 +765,11 @@ h3 {
 }
 
 .avatar {
-    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 9px rgb(0, 0, 0);
 }
 
 .black-background {
+    background-color: rgba(0, 0, 0, 0.61);
     padding: 40px 40px 40px 40px;
 }
 

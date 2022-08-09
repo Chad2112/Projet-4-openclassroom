@@ -1459,6 +1459,12 @@ img {
     border-radius: 6px
 }
 
+.jumbotron .h1,
+.jumbotron h1 {
+    color: inherit
+}
+
+
 .img-thumbnail {
     display: inline-block;
     max-width: 100%;
