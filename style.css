@@ -786,6 +786,10 @@ h3 {
     background-color: #F3976C;
 }
 
+.background-color-contrast {
+    background-color: rgb(202, 67, 12);
+}
+
 .tc-white {
     color: #f3976c;
 }
