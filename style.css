@@ -283,6 +283,10 @@ a:hover {
     padding-left: 0;
 }
 
+#bloc-1-hero {
+    background-color: #000000;
+}
+
 #bloc-1-hero h1 {
     font-size: 32px;
 }
@@ -783,6 +787,10 @@ h3 {
 .btn-atomic-tangerine {
     background: rgb(207, 128, 91);
 
+}
+
+#bloc-3-what-i-do {
+    background-color: #000000;
 }
 
 .btn-atomic-tangerine:hover {
