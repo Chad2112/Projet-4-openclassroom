@@ -7,10 +7,14 @@ body {
     background-color: #FFF;
 }
 
+button {
+    background: none;
+    border: none;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none !important;
 }
 
 a:hover {
@@ -462,9 +466,7 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
-button {
-    outline: none !important;
-}
+
 
 .btn-rd {
     border-radius: 40px;
@@ -849,6 +851,35 @@ h3 {
 
 .page-container-2 {
     margin: 0% 5%;
+}
+
+#form_1 input:invalid:focus~span {
+
+    display: flex;
+    visibility: visible;
+    color: red;
+    transition: .4s opacity linear
+}
+
+#form_1 textarea:valid:focus,
+input:valid:focus {
+
+    border: rgb(29, 221, 29) 3px solid;
+
+}
+
+#form_1 textarea:invalid:focus,
+input:invalid:focus {
+
+    border: red 3px solid;
+
+}
+
+.msg-false {
+
+    visibility: hidden;
+    color: red;
+
 }
 
 .citation {
