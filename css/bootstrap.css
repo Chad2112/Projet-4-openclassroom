@@ -2061,7 +2061,6 @@ pre code {
 .col-sm-11,
 .col-sm-12,
 .col-sm-2,
-.col-sm-3,
 .col-sm-4,
 .col-sm-5,
 .col-sm-6,
@@ -7910,7 +7909,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #0009;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px;
